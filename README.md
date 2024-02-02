@@ -1,2 +1,7 @@
-# movie_tickets
-use frappe-ui and vue js
+## Movie Tickets
+
+Movie ticket booking app with frappeUI
+
+#### License
+
+MIT
