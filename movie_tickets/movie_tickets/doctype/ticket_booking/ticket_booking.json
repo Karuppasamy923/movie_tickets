@@ -12,7 +12,9 @@
   "number_of_tickets",
   "show",
   "theater",
-  "amended_from"
+  "amended_from",
+  "column_break_xsvw3",
+  "selected_seats"
  ],
  "fields": [
   {
@@ -43,6 +45,7 @@
    "options": "Theater Show"
   },
   {
+   "fetch_from": "show.theater",
    "fieldname": "theater",
    "fieldtype": "Link",
    "label": "Theater",
@@ -57,12 +60,21 @@
    "options": "Ticket Booking",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_xsvw3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "selected_seats",
+   "fieldtype": "JSON",
+   "label": "Selected Seats"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-01-29 12:37:01.116173",
+ "modified": "2024-02-05 12:59:32.477620",
  "modified_by": "Administrator",
  "module": "Movie Tickets",
  "name": "Ticket Booking",

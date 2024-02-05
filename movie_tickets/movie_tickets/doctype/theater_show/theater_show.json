@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:start_time",
  "creation": "2024-01-29 11:42:23.274163",
  "default_view": "List",
  "doctype": "DocType",
@@ -8,7 +9,7 @@
  "engine": "InnoDB",
  "field_order": [
   "theater",
-  "start__time"
+  "start_time"
  ],
  "fields": [
   {
@@ -18,17 +19,19 @@
    "options": "Movie Theater"
   },
   {
-   "fieldname": "start__time",
-   "fieldtype": "Time",
-   "label": "Start  Time"
+   "fieldname": "start_time",
+   "fieldtype": "Data",
+   "label": "Start  Time",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-29 11:42:23.274163",
+ "modified": "2024-02-05 13:02:45.897790",
  "modified_by": "Administrator",
  "module": "Movie Tickets",
  "name": "Theater Show",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -45,9 +48,11 @@
   }
  ],
  "quick_entry": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "start_time",
  "track_changes": 1,
  "track_views": 1
 }

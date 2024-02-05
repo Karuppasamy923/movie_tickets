@@ -1,17 +1,13 @@
 <template>
    <div class="p-8">
-      <MovieDetails/>
+      <!-- <MovieDetails/> -->
+      <MovieList/>
    </div>
 </template>
 <!-- new change -->
-<script>
-   import MovieDetails from './MovieDetails.vue';
-   export default {
-      name:'home',
-      components:{
-         MovieDetails,
-      },
-   }
+<script setup>
+   // import MovieDetails from './MovieDetails.vue';
+   import MovieList from './MovieList.vue'
 </script>
 
 <style lang="scss" scoped>

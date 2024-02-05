@@ -679,6 +679,11 @@ cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+create-vite@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/create-vite/-/create-vite-5.1.0.tgz#47b1bbc5fa03047de99ccc5debf4bbc7091c9a12"
+  integrity sha512-sKEnpzdFcG3pPdYBdCFBeONg1+nBLkwUtH4wbva+MeU2bJXJTB+A7I+zAxc4Hauw8W38x9qbogYu49nzzbK7mg==
+
 crelt@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/crelt/-/crelt-1.0.5.tgz#57c0d52af8c859e354bace1883eb2e1eb182bb94"
